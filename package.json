@@ -1,0 +1,21 @@
+{
+  "name": "finance-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "node": "v20.15.0",
+  "scripts": {
+    "start": "node index.js",
+    "sctest": "node testScreens.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Leonardo Mendes Peres",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.3",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0"
+  }
+}
