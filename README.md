@@ -39,12 +39,12 @@ Aplicação console para organizar sua gestão financeira pessoal de maneira sim
 
 ## 🌐 Variáveis de Ambiente
 
-O projeto utiliza variáveis de ambiente. Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+O projeto utiliza variáveis de ambiente. Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis (exemplo funcional):
 
 ```
-ALGORITHM = ''
-SECRET_KEY = ''
-IV = ''
+ALGORITHM = 'aes-256-cbc'
+SECRET_KEY = 'abcdefghijklmnopqrstuvwxyz123456'
+IV = '1234567890123456'
 ```
 
 ## Estrutura de Pastas
