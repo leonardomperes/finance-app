@@ -950,7 +950,7 @@ export class Screens {
         console.clear()
         const loading = new Loading()
         const userData = this.state.user[0].value
-        STYLES.expensesListScreen(userData)
+        STYLES.incomesListScreen(userData)
         // -----------------------------------------------------------------------------
         if (userData["incomes"] == undefined) {
             this.users.data[this.state.user[0].index] = {
@@ -989,9 +989,9 @@ export class Screens {
 
                 await fs.writeFile(PROJECT.filePath, JSON.stringify(newData, null, 2))
                 this.state.user[0].value = this.users.data[this.state.user[0].index]
-                STYLES.expenseApp.listFixedTitle()
+                STYLES.incomesApp.listFixedTitle()
                 userData.incomes.fixed.map((el) => {
-                    STYLES.expenseApp.listFixed(el)
+                    STYLES.incomesApp.listFixed(el)
                 })
                 const input = await select({ message: "", choices: ['VOLTAR'] })
                 if (input == "VOLTAR") {

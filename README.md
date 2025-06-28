@@ -55,8 +55,22 @@ IV = '1234567890123456'
 
 `utils`: Cálculos e validações <br>
 
-## 📄 Licença <i> MIT
+## 📄 Licença <i> MIT </i>
 
+## 📺 Telas da Aplicação
+### Dashboard (Menu)
+![alt text](/photos/image-1.png)
+
+### Gastos
+![alt text](/photos/image-2.png)
+### Lista de Gastos
+![alt text](/photos/image-3.png)
+### Renda
+![alt text](/photos/image-4.png)
+### Lista de Rendas
+![alt text](/photos/image-5.png)
+### Relatório
+![alt text](/photos/image.png)
 ## Colaboradores
 👨‍💻<i> Leonardo Peres</i> <br/>
  leonardom.peres@gmal.com
